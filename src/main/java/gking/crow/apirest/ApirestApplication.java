@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ApirestApplication {
     @GetMapping
     public String getBook(){
-        return "API Test!";
+        return "Testando!";
     }
 
     public static void main(String[] args) {
